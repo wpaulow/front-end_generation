@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- O quê identifica como HTML5 é o !doctype -->
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="Exemplo de blog ou sei lá o quê">
+   <meta name="keywords" content="aleatoriedades, diabruras">
+   <meta name="author" content="Wesley Paulow">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Tag de responsividade do HTML-5-->
+   <meta http-equiv="X-UA-Compatible" content="ie-edge">
+   <!--tag para compatibilizar o HTML-5 com o edge-->
+   <title> Minha primeira página HMTL </title>
+   <style>
+      ul{
+         list-style:none;
+         display: flex;
+         justify-content: center;
+      }
+
+      ul li {
+         display: inline;
+         padding: 3%; 
+      }
+
+      a {
+         text-decoration: none;
+         color:black;
+      }
+
+      .center{
+         display: flex;
+         justify-content: center;
+      }
+
+      figure {
+         width: 300px;
+         height: 200px;
+      }
+      
+   </style>
+      <!--primeira forma de aplicar css-->
+      <!--padding vai de dentro pra fora do elemento, diferente do margin que é de fora pra dentro-->
+</head>
+
+<body>
+   <p>Minha primeira página HTML</p>
+
+   <!--Lista Desordenada-->
+   <ul style="list-style: none;"> 
+      <li>
+         <a href="https://www.google.com.br" target="_blank">Home</a>
+      </li>
+      <li>Sobre</li>
+      <li>Contato</li>
+   </ul>
+
+   <!--Criar vários itens de uma vez "li*4", por exemplo-->
+
+   <figure class="center">
+      <img src="../imgs/nodejs.jpg" alt="Imagem do logo do Node.js">
+         <!--alt é a identificação da imagem. para quando ela quebrar ou para leitura para cegos-->
+   </figure>
+
+   <p>Ai você fala o <strong>seguinte:</strong> "- Mas vocês acabaram isso?" Vou te falar: -"Não, está em andamento!" Tem obras que "vai" durar pra depois de 2010. Agora, por isso, nós já não desenhamos, não começamos a fazer projeto do que nós "podêmo fazê"? 11, 12, 13, 14... Por que é que não?</p>
+
+   <form action="" method="post">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+      <br><br>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+      <br><br>
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" placeholder="Digite sua senha" minlength="6" maxlength="16" required>
+      <br><br>
+      <button type="submit">Enviar</button>
+   </form>
+</body>
+
+</html>
