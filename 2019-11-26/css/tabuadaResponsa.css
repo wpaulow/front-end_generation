@@ -1,0 +1,13 @@
+.linhaPar{
+    background-color: palegreen;
+ }
+ .linhaImpar{
+    background-color: peachpuff;
+ }
+ .row{
+     text-align: center;
+     height: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     
+ }

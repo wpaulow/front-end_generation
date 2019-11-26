@@ -1,0 +1,16 @@
+.linhaRed{
+    background-color: red;
+ }
+ .linhaBlue{
+    background-color: blue;
+ }
+ .linhaGreen{
+     background-color: green;
+ }
+ .row{
+     text-align: center;
+     height: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     
+ }
