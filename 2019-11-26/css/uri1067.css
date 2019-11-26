@@ -1,11 +1,11 @@
 .linhaRed{
-    background-color: red;
+    background-color: rgb(241, 95, 95);
  }
  .linhaBlue{
-    background-color: blue;
+    background-color: rgb(87, 87, 241);
  }
  .linhaGreen{
-     background-color: green;
+     background-color: rgb(130, 226, 130);
  }
  .row{
      text-align: center;

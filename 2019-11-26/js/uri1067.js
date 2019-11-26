@@ -7,13 +7,13 @@ for (i=0; i <= n; i++) {
     if(i % 2 != 0){
         htmlGerado += "<div class='row";
         cont++;
-        if (cont == 1) {
-            htmlGerado += " linhaRed'>";
-        } else if (cont == 2){
-            htmlGerado += " linhaBlue'>";
-        } else if (cont == 3) {
-            htmlGerado += " linhaGreen'>"
-        }
+            if (cont == 1) {
+                htmlGerado += " linhaRed'>";
+            } else if (cont == 2){
+                htmlGerado += " linhaBlue'>";
+            } else if (cont == 3) {
+                htmlGerado += " linhaGreen'>"
+            }
         htmlGerado += "<div class='col-lg-12'>" + i + "</div>";
         
         htmlGerado += "</div>";
