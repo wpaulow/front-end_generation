@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> LOGIN </title>
+</head>
+<body>
+    <h1>Conecte-se</h1>
+    <hr/>
+    <!--Foi tirada a tag <form> pro navegador não ficar recarregando toda hora-->
+        Seu e-Mail: 
+        <input type="text" id="email">
+        <br>
+        Sua Senha: 
+        <input type="password" id="password">
+        <br>
+        <button onclick="valida()">Conectar!</button>
+    
+        <div id="resultado">
+
+        </div>
+    <script>
+        function valida() {
+            //gen@generation.org
+            //generation
+            var email = document.getElementById("email").value;
+            var senha = document.getElementById("password").value;
+
+            if(email == "gen@generation.org" && senha == "generation") {
+                console.log("Email digitado = " + email);
+                console.log("Senha digitada = " + senha);
+                document.getElementById("resultado").innerHTML="Conectado!";
+            } else {
+                console.log("Porra ninhuma");
+                document.getElementById("resultado").innerHTML="Usuário/Senha Inválido(s)!";
+            }
+            
+        }
+
+    </script>
+</body>
+</html>
