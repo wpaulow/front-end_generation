@@ -34,6 +34,7 @@ function calculaImposto() {
 }
 
 function totalizarEExibir () {
+
     var salBruto = document.getElementById("salario").value;
     var imposto = calculaImposto();
     if (imposto == 0){
@@ -42,4 +43,5 @@ function totalizarEExibir () {
         var salLiquido = salBruto - imposto;
         document.getElementById("resultado").innerHTML = "Imposto Devido R$ " + imposto + "<br> Salário Líquido R$ " + salLiquido + "<br>";
     }
+    
 }
