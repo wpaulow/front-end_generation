@@ -1,0 +1,29 @@
+#testeira{
+    background-color: blueviolet;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: rgb(143, 88, 131) 3px 3px 3px;
+}
+#textodologo{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#imagemdologo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+#soleira{
+    background-color: blueviolet;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: rgb(143, 88, 131) 3px 3px 3px;
+}
+#rodape{
+    background-color: blueviolet;
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: rgb(143, 88, 131) 3px 3px 3px;
+}
