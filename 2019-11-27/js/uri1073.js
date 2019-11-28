@@ -22,3 +22,4 @@ for (i=2; i <= n; i++) {
     }
 }
 document.getElementById("conteudo").innerHTML = htmlGerado;
+/* O innerHTML é um método que troca o conteúdo de uma div. */

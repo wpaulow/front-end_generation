@@ -1,0 +1,7 @@
+1. a tarefa é criar um tabuleiro usando essa geração de colunas. um tabuleiro de xadrez, talvez;
+
+2. a segunda tarefa é fazer um laço que também gera um upload de uma série de imagens que se encontrarem dentro de
+uma pasta e alocar os tamanhos das colunas, ou melhor, das divs, de acordo com o tamanho de cada imagem. Da forma 
+como aparece no google imagens quando fazemos alguma busca;
+
+
