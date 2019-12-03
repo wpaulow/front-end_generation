@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Busca Infos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/buscaInfos_ajax.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/buscaInfos_ajax.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-sm-12" id="peitchera">
+                <h1>Febre do Rato</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="usr">Digite o ID a ser pesquisado:</label>
+                    <input type="text" class="form-control" id="usr">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <button class="btn btn-outline-info" id="btnInfo" onclick="realizarBusca();">
+                    BUSCAR
+                </button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container" id="result">
+
+    </div>
+
+</body>
+
+</html>
