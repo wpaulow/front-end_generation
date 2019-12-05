@@ -1,0 +1,30 @@
+
+
+#tapaBuraco {
+    height: 100px;
+    background-color: white;
+}
+
+#fotoGrupo {
+    height: 50%;
+}
+
+.corpoCard {
+    color: transparent;
+    border-radius:50%;
+}
+
+.fotos {
+    width: 200px;
+    height: 200px;
+}
+
+.bg{
+    background: transparent;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
