@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster&display=swap');
+
+#titulo
+{
+text-align: center;
+font-family: 'Indie Flower', cursive;
+}
+
+.fotos
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 3%;
+}
+
+.card-body
+{
+    padding-bottom: 20px;
+}
+
+img#italo
+{
+    margin-left: 20px;
+}
+
+#fundo
+{
+    background-image: url("../imagens/fundo.jpeg");
+}
+
+#pt1
+{
+    background-color: rgba(0,0,0,.7); 
+    color: white
+}
+
+.letrac
+{
+    color: black;
+}
+.fotos{
+webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+}
+
+.fotos:hover {
+width: 300px;
+height: 300px;
+-webkit-transform: rotate(360deg); /* Safari */
+transform: rotate(360deg);
+}
